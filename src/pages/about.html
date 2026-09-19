@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNova - About</title>
+  <link rel="icon" href="../../assets/images/logo.svg">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Flowbite CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Our own CSS -->
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body class="bg-white pt-20">
+
+  <!-- ========== NAVBAR (Flowbite) ========== -->
+  <nav class="bg-white border-b border-gray-200 fixed w-full top-0 z-50">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <!-- Logo -->
+      <a href="../../index.html" class="flex items-center space-x-2">
+        <img src="../../assets/images/logo.svg" class="h-8" alt="TechNova logo">
+        <span class="text-2xl font-bold text-blue-600">TechNova</span>
+      </a>
+      <!-- Menu button for mobile -->
+      <button data-collapse-toggle="navbar-menu" type="button" class="md:hidden p-2 text-gray-600 rounded-lg hover:bg-gray-100" aria-controls="navbar-menu" aria-expanded="false">
+        <span class="sr-only">Open menu</span>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <!-- Links -->
+      <div class="hidden w-full md:block md:w-auto" id="navbar-menu">
+        <ul class="flex flex-col md:flex-row md:items-center md:space-x-4 mt-4 md:mt-0 font-medium">
+        <li><a href="../../index.html" class="block py-2 px-3 text-gray-700 hover:text-blue-600">Home</a></li>
+        <li><a href="about.html" class="block py-2 px-3 text-blue-600 font-semibold">About</a></li>
+        <li><a href="contact.html" class="block py-2 px-3 text-gray-700 hover:text-blue-600">Contact</a></li>
+        <li><a href="signup.html" class="block py-2 px-3 text-gray-700 hover:text-blue-600">Sign Up</a></li>
+        <li><a href="signin.html" class="block py-2 px-4 rounded-lg bg-blue-600 text-white hover:bg-blue-700">Sign In</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== ABOUT HERO ========== -->
+  <section class="bg-blue-50 py-16 text-center">
+    <div class="max-w-3xl mx-auto px-4">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">About TechNova</h1>
+      <p class="text-lg text-gray-600">We are a software company from Lahore. Since 2019 we have helped more than 120 organisations launch fast and secure products.</p>
+    </div>
+  </section>
+
+  <!-- ========== Component 1: OUR STORY ========== -->
+  <section class="py-16">
+    <div class="max-w-screen-xl mx-auto px-4 grid gap-10 lg:grid-cols-2 items-center">
+      <img src="../../assets/images/about.svg" alt="Illustration of a team working together" class="w-full rounded-2xl shadow-lg">
+      <div>
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Story</h2>
+        <p class="text-gray-600 mb-3">TechNova started when two engineers saw good ideas fail because software projects were slow and confusing. We decided to do it differently with small teams, clear prices and regular demos.</p>
+        <p class="text-gray-600 mb-6">Today our designers, engineers and security experts work with start-ups, schools and shops. Our mission is to make good technology available to every business.</p>
+        <a href="contact.html" class="inline-block bg-blue-600 text-white font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition">Work With Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Component 2: STATISTICS ========== -->
+  <section class="bg-gray-50 py-12">
+    <div class="max-w-screen-xl mx-auto px-4 grid gap-8 grid-cols-2 lg:grid-cols-4 text-center">
+        <div>
+          <p class="text-4xl font-bold text-blue-600">250+</p>
+          <p class="text-gray-600">Projects Done</p>
+        </div>
+        <div>
+          <p class="text-4xl font-bold text-blue-600">120+</p>
+          <p class="text-gray-600">Happy Clients</p>
+        </div>
+        <div>
+          <p class="text-4xl font-bold text-blue-600">15</p>
+          <p class="text-gray-600">Countries</p>
+        </div>
+        <div>
+          <p class="text-4xl font-bold text-blue-600">99.9%</p>
+          <p class="text-gray-600">Uptime</p>
+        </div>
+    </div>
+  </section>
+
+  <!-- ========== Component 3: TIMELINE ========== -->
+  <section class="py-16">
+    <div class="max-w-2xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-gray-900">Our Journey</h2>
+        <p class="text-gray-600 mt-2">How TechNova has grown</p>
+      </div>
+      <ol class="relative border-l-2 border-blue-200 ml-3">
+        <li class="mb-8 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full -left-3 ring-8 ring-white"></span>
+          <time class="text-sm font-semibold text-blue-600">2019</time>
+          <h3 class="text-lg font-semibold text-gray-900">Company Founded</h3>
+          <p class="text-gray-600">Two engineers start TechNova in Lahore.</p>
+        </li>
+        <li class="mb-8 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full -left-3 ring-8 ring-white"></span>
+          <time class="text-sm font-semibold text-blue-600">2020</time>
+          <h3 class="text-lg font-semibold text-gray-900">25 Clients</h3>
+          <p class="text-gray-600">Our team grows to eight people.</p>
+        </li>
+        <li class="mb-8 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full -left-3 ring-8 ring-white"></span>
+          <time class="text-sm font-semibold text-blue-600">2022</time>
+          <h3 class="text-lg font-semibold text-gray-900">Cloud Team</h3>
+          <p class="text-gray-600">We launch our cloud and DevOps team.</p>
+        </li>
+        <li class="mb-8 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full -left-3 ring-8 ring-white"></span>
+          <time class="text-sm font-semibold text-blue-600">2024</time>
+          <h3 class="text-lg font-semibold text-gray-900">AI Services</h3>
+          <p class="text-gray-600">We add AI and automation to our services.</p>
+        </li>
+        <li class="mb-8 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full -left-3 ring-8 ring-white"></span>
+          <time class="text-sm font-semibold text-blue-600">2026</time>
+          <h3 class="text-lg font-semibold text-gray-900">15 Countries</h3>
+          <p class="text-gray-600">We now serve clients in 15 countries.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========== Component 4: TEAM ========== -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-screen-xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-gray-900">Our Team</h2>
+        <p class="text-gray-600 mt-2">Meet the leaders of TechNova</p>
+      </div>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition text-center">
+          <img src="../../assets/images/avatar-amna.svg" alt="Amna Khalid" class="w-24 h-24 rounded-full mx-auto mb-4">
+          <h3 class="font-semibold text-lg text-gray-900">Amna Khalid</h3>
+          <p class="text-blue-600 text-sm">CEO</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition text-center">
+          <img src="../../assets/images/avatar-hamza.svg" alt="Hamza Sheikh" class="w-24 h-24 rounded-full mx-auto mb-4">
+          <h3 class="font-semibold text-lg text-gray-900">Hamza Sheikh</h3>
+          <p class="text-blue-600 text-sm">CTO</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition text-center">
+          <img src="../../assets/images/avatar-sara.svg" alt="Sara Malik" class="w-24 h-24 rounded-full mx-auto mb-4">
+          <h3 class="font-semibold text-lg text-gray-900">Sara Malik</h3>
+          <p class="text-blue-600 text-sm">Head of Design</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition text-center">
+          <img src="../../assets/images/avatar-bilal.svg" alt="Bilal Ahmed" class="w-24 h-24 rounded-full mx-auto mb-4">
+          <h3 class="font-semibold text-lg text-gray-900">Bilal Ahmed</h3>
+          <p class="text-blue-600 text-sm">Lead Engineer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Component 5: TESTIMONIALS ========== -->
+  <section class="py-16">
+    <div class="max-w-screen-xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-gray-900">Client Testimonials</h2>
+        <p class="text-gray-600 mt-2">What our partners say about us</p>
+      </div>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
+          <p class="text-yellow-500 mb-3">★★★★★</p>
+          <p class="text-gray-700 mb-4">"Working with TechNova feels like having our own engineering team."</p>
+          <p class="font-semibold text-gray-900">Zain Abbas</p>
+          <p class="text-sm text-gray-500">CEO, Finlytics</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
+          <p class="text-yellow-500 mb-3">★★★★★</p>
+          <p class="text-gray-700 mb-4">"Design and engineering work closely together and it shows."</p>
+          <p class="font-semibold text-gray-900">Maryam Shah</p>
+          <p class="text-sm text-gray-500">Product Lead, LearnLoop</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
+          <p class="text-yellow-500 mb-3">★★★★★</p>
+          <p class="text-gray-700 mb-4">"They found a security problem we missed and fixed it in a day."</p>
+          <p class="font-semibold text-gray-900">Kamran Butt</p>
+          <p class="text-sm text-gray-500">IT Manager, Buildwise</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-screen-xl mx-auto px-4 py-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div>
+        <h3 class="text-2xl font-bold text-white mb-3">TechNova</h3>
+        <p class="text-sm">We build web, cloud and AI products for growing businesses.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-white mb-3">Pages</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="../../index.html" class="hover:text-white">Home</a></li>
+          <li><a href="about.html" class="hover:text-white">About</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold text-white mb-3">Account</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="signup.html" class="hover:text-white">Sign Up</a></li>
+          <li><a href="signin.html" class="hover:text-white">Sign In</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold text-white mb-3">Contact</h3>
+        <ul class="space-y-2 text-sm">
+          <li>📍 Gulberg III, Lahore, Pakistan</li>
+          <li>✉️ hello@technova.com</li>
+          <li>📞 +92 300 1234567</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 text-center text-sm py-4">
+      © 2026 TechNova. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Flowbite JS -->
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+  <!-- Our JavaScript -->
+  <script src="../../assets/js/script.js"></script>
+</body>
+</html>
